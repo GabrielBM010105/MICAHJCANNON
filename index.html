@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color: #C4C4C4;
+            display: flex;
+            flex-direction: column; /* Make body a flex container */
+            min-height: 100vh; /* Ensure body takes full viewport height */
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000000;
+            height: 220px; /* Height for the header */
+            padding: 0 30px;
+        }
+
+        .header-container img {
+            width: 220px; /* Adjust the size of the image */
+            height: auto; /* Maintain aspect ratio */
+            padding-top: 30px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 280px;
+            background-color: #000000;
+            padding: 20px 0;
+            padding-top: 50px;
+            margin-top: -45px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.4em;
+        }
+
+        .nav a:hover {
+            color: #7b7b7b;
+        }
+
+        .content {
+            display: flex; /* Keep the image and text side by side */
+            align-items: flex-start; /* Align the image and text at the top */
+            margin: 30px; /* Adds space around the content */
+            flex-grow: 1;
+        }
+
+        .content img {
+            width: 375px;
+            margin-right: 30px; /* Add space between the image and text */
+        }
+
+        .text-content {
+            display: flex; /* Make this a flex container */
+            flex-direction: column; /* Stack paragraphs vertically */
+            gap: 20px; /* Add spacing between paragraphs */
+            padding-left: 50px;
+            padding-top: 20px;
+            padding-right: 60px;
+        }
+
+        .content p {
+            font-size: 0.9em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0; /* Remove default paragraph margins */
+        }
+
+        .section {
+            padding-left: 30px; /* Center-aligns text in each section */
+        }
+
+        .section h2 {
+            margin: 0 0 10px; /* Spacing between heading and paragraph */
+        }
+
+        .section p {
+            margin: 0;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px 0; /* Add padding around text */
+            display: flex;
+            justify-content: flex-start; /* Aligns footer content to the left */
+            align-items: center;
+            padding-left: 30px; /* Adjust the left padding */
+        }
+
+        footer p {
+            margin: 5px 0; /* Add spacing between footer lines */
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 13px;
+            margin-right: 10px; /* Space between links */
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        footer img {
+            width: 50%
+        }
+
+        img {
+            border: 2px solid #000000;
+        }
+
+        .line {
+            height: 1px; /* Thickness of the line */
+            background-color: black; /* Color of the line */
+            margin: 1px 0; /* Space around the line */
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); /* Drop shadow effect */
+            width: 95%; /* Full width */
+        }
+
+    </style>
+
+    <body>
+        <div class="header-container">
+            <a href="index.html"><img src="MJC.jpg" alt="MJC Logo"></a>
+        </div>
+
+        <br></br>
+    
+        <div class="nav">
+            <a href="NEWS.html">MEDIA</a>
+            <a href="ABOUTMICAH.html">ABOUT</a>
+            <a href="CONTACTMICAH.html">CONTACT</a>
+        </div>
+
+        <br></br>
+
+        <div class="content">
+            <img src="MICAH.JPG" alt="Micah Cannon">
+            <div class="text-content">
+                <p style="font-size: 25px;"><b>
+                    HOME
+                </b>
+                </p>
+                <div class="line"></div>
+                <p>
+                    My name is Micah Cannon, and I’m a 19-year-old Mass Media major at North Carolina A&T State University. I’m proud to call Atlanta, GA, my home, and I’ve always had a deep passion for media and content creation. From an early age, I discovered my love for both sports and public speaking, two interests that have shaped my journey and fueled my desire to connect with others. Whether I was on the field or standing in front of an audience, I found joy in telling stories, expressing my ideas, and sharing my perspective.
+                </p>
+                <p>
+                    My love for sports taught me the value of teamwork, discipline, and perseverance, while my passion for speaking allowed me to develop confidence, connect with people, and articulate my thoughts. These early experiences instilled in me a drive to create meaningful connections and communicate in impactful ways.
+ 
+                    As I grew older, my interests naturally evolved into a deep appreciation for media and storytelling. Through my YouTube channel, I’ve had the opportunity to merge these passions by creating engaging content that connects with people from all walks of life. Whether I’m sharing stories, diving into thought-provoking topics, or experimenting with creative visuals, content creation has become my way of inspiring and empowering others. For me, it’s more than a hobby—it’s a calling to tell stories that matter and make a lasting impression.
+                </p>
+                <p>
+                    My ultimate goal is to build a career where I can push the boundaries of media, amplify important voices, and use my platform to bring people together. I’m passionate about using media to explore innovative ideas, foster unity, and create content that motivates others to pursue their dreams.
+
+                    I’m determined to craft narratives that resonate, whether they’re rooted in sports, personal growth, or the ever-evolving landscape of media. By merging creativity, passion, and purpose, I aim to leave a positive impact on the media space.
+                </p>
+                <p>
+                    - Micah J. Cannon
+                </p>
+            </div>
+        </div>
+
+        <br></br>
+        <br></br>
+
+        <footer>
+            <a href="https://www.youtube.com/@micahjcannon"><img src="YT.JPG" alt="Micah Cannon"></a>
+            <a href="https://www.instagram.com/micahjcannon/"><img src="IG.JPG" alt="Micah Cannon"></a>
+            <a href="https://x.com/themjcnetwork?s=11&t=FUkJKFIFHXfhOrRGTwRd7w"><img src="X.JPG" alt="Micah Cannon"></a>
+            <a href="https://www.linkedin.com/in/micah-cannon-5abb40297/"><img src="LI.JPG" alt="Micah Cannon"></a>
+            <a href="mailto:miccan50@gmail.com"><img src="EMAIL.JPG" alt="Micah Cannon"></a>
+            <p style="padding-left: 920px;"><i><b>MICAH J. CANNON</b></i></p>
+            <br></br>
+        </footer>
+    </body>
+</html>
+
+
+
